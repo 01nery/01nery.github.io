@@ -11,18 +11,18 @@ html, body {
 
 .header {
 	height: 35px;
-    background-color: #F1F1F1;
+    background-color: #000000;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #F1F1F1;
+  background-color: #000000;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 10px 12px;
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
@@ -37,7 +37,7 @@ html, body {
 
 .footer {
 	height: 20px;
-    background-color: #F1F1F1;
+    background-color: #000000;
 	text-align: center;
 	padding: 5px;
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
@@ -45,6 +45,7 @@ html, body {
 	font-style: normal; 
 	font-variant: normal; 
 	font-weight: 700; 
+	color: white;
 }
 
 .content {
@@ -68,21 +69,22 @@ html, body {
 .main {
 	text-align: center;
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
-	font-size: 20px; 
+	font-size: 27px; 
 	font-style: normal; 
 	font-variant: normal; 
 	font-weight: 700; 
 }
 
 .main p {
-	font-size: 13px;
+	font-size: 16px;
+	font-weight: 800;
 }
 
 .logo {
 	margin-top: 20%;
-	width: 200px;
+	width: 250px;
 }
 
 .logo:hover {
-  width: 205px;
+  width: 255px;
 }
