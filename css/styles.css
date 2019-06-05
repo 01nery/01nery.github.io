@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.header {
+	height: 35px;
+    background-color: #F1F1F1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F1F1F1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+  text-decoration: none;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+	height: 20px;
+    background-color: #F1F1F1;
+	text-align: center;
+	padding: 5px;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	font-size: 15px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+}
+
+.content {
+	flex: 1;
+	background-color: #29c9ff;
+}
+
+.main {
+	text-align: center;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+}
+
+.main p {
+	font-size: 13px;
+}
+
+.logo {
+	margin-top: 20%;
+	width: 200px;
+}
