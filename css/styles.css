@@ -49,7 +49,20 @@ html, body {
 
 .content {
 	flex: 1;
+
+}
+
+.content::after {
+	content: "";
 	background-color: #29c9ff;
+	background-image: url("logo2.png");
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 .main {
@@ -68,4 +81,8 @@ html, body {
 .logo {
 	margin-top: 20%;
 	width: 200px;
+}
+
+.logo:hover {
+  width: 205px;
 }
